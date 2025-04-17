@@ -1,0 +1,9 @@
+- always start with the B and M characters (0x42, 0x4D) 
+    - check wether this is true - if it is, then the file is a valid BMP file (error handleing) (check wether i get a valid filetype)
+- the offset is 10 bytes - the code: "seek(10)" this moves the file pointer to the right place for reading where the file starts
+    - after reading in the  offset value jump to the start of the pixels
+
+TODO:
+    - get how much we want to read in - the end of the file consists of smth else
+
+    

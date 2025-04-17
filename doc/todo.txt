@@ -1,0 +1,8 @@
+- implement check wether the rgba values in class Pixel are in range 0<n<255 (comes from bmp standard)
+- the getPixel method should return a const Pixel& object!!!
+- the PictureManager class don't have to have a params struct, becase the filters vector holds the filterinstances, and they all have variables, that \
+tell them how much they should apply values
+- usage of std::unique_ptr<> and std::make_unique, and std::,,,_ptr<>m and make ... - handles dynamic data withhout me
+- use a FilterFactory class which has static methods for creating instances of filters with required parameters
+- filter classs should have neccessary data for applying it
+- 
