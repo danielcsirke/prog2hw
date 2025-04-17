@@ -82,8 +82,7 @@ class MedianFilter: public IFilter {
 };
 
 class PictureManager {
-    Picture& pic;
-    std::vector<IFilter*> filters;
+    std::vector<IFilter&> filters;
 
 
 
@@ -91,9 +90,11 @@ class PictureManager {
     bool addFilter(IFilter* filter) { // should it be referency or pointer? (if pointer, it has to be chevecked for nullptr)
         // TODO
     }
-    bool applyFilters() {
+    bool applyFilters(const Picture& pic) {
         // TODO
     }
+
+    // maybe removeFilters()? 
 
 
 };
