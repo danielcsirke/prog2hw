@@ -5,3 +5,11 @@
 - put ImageFiltering classes into namespace
 - update the cmakelists.txt to the correct file structure
 - 
+
+
+
+create new object:
+std::unique_ptr<ClassType> varname = \
+    std::make_unique<ClassName>;
+
+    shared: same
