@@ -1,0 +1,49 @@
+├── build
+├── CMakeLists.txt
+├── doc
+│   ├── documentation.docx
+│   ├── file_structure.txt
+│   ├── guidelines.pdf
+│   ├── help.txt
+│   ├── how_does_bmp_work.txt
+│   ├── initial_specification.docx
+│   ├── initial_specification_weblink.txt
+│   ├── specification.docx
+│   └── todo.txt
+├── include
+│   ├── core
+│   │   ├── Picture.hpp
+│   │   └── Pixel.hpp
+│   ├── imgfilt                             # top-level namespace
+│   │   ├── filters
+│   │   │   ├── BlurFilter.hpp
+│   │   │   ├── ContrastFilter.hpp
+│   │   │   ├── EdgeDetectionFilter.hpp
+│   │   │   ├── GammaCorrectionFilter.hpp
+│   │   │   ├── IFilter.hpp
+│   │   │   ├── ImageFiltering.hpp
+│   │   │   ├── MedianFilter.hpp
+│   │   │   └── RGBCorrectionFilter.hpp
+│   │   └── pipeline
+│   │       ├── FilterFactory.hpp
+│   │       └── FilterPipeline.hpp
+│   └── io
+│       ├── BMPFileManager.hpp
+│       └── IFileManager.hpp
+├── LICENSE
+├── README.md
+├── src
+│   ├── core
+│   │   ├── Picture.cpp
+│   │   └── Pixel.cpp
+│   ├── filters
+│   │   └── filters.cpp                     # implementations of all filters
+│   ├── io
+│   │   ├── BMPFileManager.cpp
+│   │   └── IFileManager.cpp
+│   ├── main.cpp
+│   ├── pipeline
+│   │   ├── FilterFactory.cpp
+│   │   └── FilterPipeline.cpp
+│   └── plan.cpp
+└── tests

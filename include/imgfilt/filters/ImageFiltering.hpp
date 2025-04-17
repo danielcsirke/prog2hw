@@ -9,3 +9,4 @@
 #include "MedianFilter.hpp"
 #include "IFilter.hpp"
 #include "FilterFactory.hpp"
+#include "FilterPipeline.hpp"
