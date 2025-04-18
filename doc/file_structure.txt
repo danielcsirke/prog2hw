@@ -1,4 +1,76 @@
 ├── build
+│   ├── CMakeCache.txt
+│   ├── CMakeFiles
+│   │   ├── 3.31.6
+│   │   │   ├── CMakeCXXCompiler.cmake
+│   │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │   │   ├── CMakeSystem.cmake
+│   │   │   └── CompilerIdCXX
+│   │   │       ├── a.out
+│   │   │       ├── CMakeCXXCompilerId.cpp
+│   │   │       └── tmp
+│   │   ├── cmake.check_cache
+│   │   ├── CMakeConfigureLog.yaml
+│   │   ├── CMakeDirectoryInformation.cmake
+│   │   ├── cmake.verify_globs
+│   │   ├── imgfilt.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   └── src
+│   │   │       ├── core
+│   │   │       │   ├── Picture.cpp.o
+│   │   │       │   ├── Picture.cpp.o.d
+│   │   │       │   ├── Pixel.cpp.o
+│   │   │       │   └── Pixel.cpp.o.d
+│   │   │       ├── filters
+│   │   │       │   ├── filters.cpp.o
+│   │   │       │   └── filters.cpp.o.d
+│   │   │       ├── io
+│   │   │       │   ├── BMPFileManager.cpp.o
+│   │   │       │   ├── BMPFileManager.cpp.o.d
+│   │   │       │   ├── IFileManager.cpp.o
+│   │   │       │   └── IFileManager.cpp.o.d
+│   │   │       ├── main.cpp.o
+│   │   │       ├── main.cpp.o.d
+│   │   │       ├── pipeline
+│   │   │       │   ├── FilterFactory.cpp.o
+│   │   │       │   ├── FilterFactory.cpp.o.d
+│   │   │       │   ├── FilterPipeline.cpp.o
+│   │   │       │   └── FilterPipeline.cpp.o.d
+│   │   │       └── plan.cpp.o.d
+│   │   ├── Makefile2
+│   │   ├── Makefile.cmake
+│   │   ├── pkgRedirects
+│   │   ├── Progress
+│   │   │   ├── 1
+│   │   │   ├── 2
+│   │   │   ├── 3
+│   │   │   ├── 4
+│   │   │   ├── 5
+│   │   │   ├── 6
+│   │   │   ├── 7
+│   │   │   ├── 8
+│   │   │   ├── 9
+│   │   │   └── count.txt
+│   │   ├── progress.marks
+│   │   ├── TargetDirectories.txt
+│   │   └── VerifyGlobs.cmake
+│   ├── cmake_install.cmake
+│   ├── compile_commands.json
+│   ├── Makefile
+│   └── tests
+│       ├── CMakeFiles
+│       │   ├── CMakeDirectoryInformation.cmake
+│       │   └── progress.marks
+│       ├── cmake_install.cmake
+│       └── Makefile
 ├── CMakeLists.txt
 ├── doc
 │   ├── documentation.docx
@@ -14,14 +86,14 @@
 │   ├── core
 │   │   ├── Picture.hpp
 │   │   └── Pixel.hpp
-│   ├── imgfilt                             # top-level namespace
+│   ├── imgfilt
 │   │   ├── filters
 │   │   │   ├── BlurFilter.hpp
 │   │   │   ├── ContrastFilter.hpp
 │   │   │   ├── EdgeDetectionFilter.hpp
 │   │   │   ├── GammaCorrectionFilter.hpp
 │   │   │   ├── IFilter.hpp
-│   │   │   ├── ImageFiltering.hpp
+│   │   │   ├── imgfilt.hpp
 │   │   │   ├── MedianFilter.hpp
 │   │   │   └── RGBCorrectionFilter.hpp
 │   │   └── pipeline
@@ -32,18 +104,19 @@
 │       └── IFileManager.hpp
 ├── LICENSE
 ├── README.md
-├── src
-│   ├── core
-│   │   ├── Picture.cpp
-│   │   └── Pixel.cpp
-│   ├── filters
-│   │   └── filters.cpp                     # implementations of all filters
-│   ├── io
-│   │   ├── BMPFileManager.cpp
-│   │   └── IFileManager.cpp
-│   ├── main.cpp
-│   ├── pipeline
-│   │   ├── FilterFactory.cpp
-│   │   └── FilterPipeline.cpp
-│   └── plan.cpp
-└── tests
+├── sandbox
+│   └── test.sh
+└── src
+    ├── core
+    │   ├── Picture.cpp
+    │   └── Pixel.cpp
+    ├── filters
+    │   └── filters.cpp
+    ├── io
+    │   ├── BMPFileManager.cpp
+    │   └── IFileManager.cpp
+    ├── main.cpp
+    ├── pipeline
+    │   ├── FilterFactory.cpp
+    │   └── FilterPipeline.cpp
+    └── plan.cpp

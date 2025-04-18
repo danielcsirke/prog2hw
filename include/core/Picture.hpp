@@ -1,3 +1,12 @@
+#pragma once
+
+#include <iostream>
+#include <vector>
+#include "Pixel.hpp"
+
+
+
+
 class Picture {
     unsigned width;
     unsigned height;

@@ -1,3 +1,39 @@
+# CREATED BY CHATGPT
+
+# Build output
+/build/
+/build*/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# VSCode files (optional, if you use VSCode)
+.vscode/
+
+# Binary files
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.dylib
+
+# IDE files (optional)
+*.user
+*.log
+*.swp
+.DS_Store
+
+
+
+# CREATED BY GITHUB GITIGNORE
+
 # Prerequisites
 *.d
 

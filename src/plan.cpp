@@ -1,15 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <memory>
-#include <string>
 
-
-
-class IFilter {
-public:
-    virtual void apply(Picture& pic) = 0;
-    virtual ~IFilter() {}
-};
 
 class ContrastFilter: public IFilter {
 
