@@ -14,3 +14,11 @@ std::unique_ptr<ClassType> varname = \
     std::make_unique<ClassName>;
 
     shared: same
+
+
+DONE
+====
+
+- Pixel.hpp
+- Picture.hpp
+- IFilter.hpp

@@ -18,3 +18,4 @@ public:
     const Pixel& getPixel(unsigned x, unsigned y) const { return pixels[y * width + x]; }
     void setPixel(unsigned x, unsigned y, const Pixel& pixel) { pixels[y * width + x] = pixel; }
 };
+

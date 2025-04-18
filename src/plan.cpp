@@ -1,8 +1,7 @@
 
 
-class ContrastFilter: public IFilter {
 
-};
+
 
 class BlurFilter: public IFilter {
 
