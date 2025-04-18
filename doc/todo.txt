@@ -4,7 +4,8 @@
 - user interface 
 - put ImageFiltering classes into namespace
 - update the cmakelists.txt to the correct file structure
-- 
+- create user input handler (class?) funcions
+
 
 
 
